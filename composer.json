@@ -15,7 +15,7 @@
     "twig/twig": ">=2.7.0"
   },
   "require-dev":  {
-    "symfony/phpunit-bridge": "~5.0|~6.0",
+    "symfony/phpunit-bridge": "~5.0|~6.0|~7.0",
     "phpunit/phpunit": "^9.5",
     "phpspec/prophecy-phpunit": "^2.0"
   },
