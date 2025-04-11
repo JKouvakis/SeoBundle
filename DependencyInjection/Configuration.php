@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
      * {@inheritdoc}
      * @return TreeBuilder
      */
-    public function getConfigTreeBuilder()
+    public function getConfigTreeBuilder(): TreeBuilder
     {
         $treeBuilder = new TreeBuilder('leogout_seo');
         // Keep compatibility with symfony/config < 4.2
